@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: inline-block;
+}
+.sx{
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.sx::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.sx img{
+    line-height: 30px;
+    vertical-align: middle;
+}
+.sx ul li, .dx ul li{
+    list-style: none;
+    font-size: 12px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.dx{
+    float: right;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.dx::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+ul{
+    display: inline-block;
+}
+.bluebutton{
+    background-color: blue;
+    color: white;
+    font-size: 11px;
+    line-height: 20px;
+    display: inline-block;
+    padding: 0 12px 0 12px;
+}
+.sfondoblu{
+    background-color: rgb(144, 171, 221);
+    height: 500px;
+    margin-top: 60px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.bloccoalto{
+    padding-top: 40px;
+    font-size: 30px;
+}
+.bloccosx{
+    width: 35%;
+    float: left;
+}
+.bloccosx::after{
+    clear: both;
+    display: table;
+    content: "";    
+}
