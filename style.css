@@ -124,7 +124,7 @@ ul{
     margin-top: 30px;
     margin: 30px auto;
 }
-.tabella, .restringi::after{
+.tabella, .restringi, .partnership::after{
     clear: both;
     display: table;
     content: "";    
@@ -184,8 +184,6 @@ ul{
 }
 .restringi{
     width: 90%;
-    margin: 0 auto;
-
 }
 .ufficio{
     font-weight: bold;
@@ -207,4 +205,37 @@ ul{
 .restringi div:last-child{
     margin-top: 26px;
     margin-bottom: 20px;
+}
+.partnership{
+    width: 100%;
+    margin:80px 0 70px 0;
+}
+.partnership img{
+    width: 60%;
+    float: left;
+}
+.testo_associato{
+    width: 35%;
+    float: right;
+}
+.testo_associato a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding :7px 15px;
+    color: rgb(48, 47, 47);
+}
+.blocchi{
+    width: 33%;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.restringi img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.restringi h3{
+    margin-top: 0px;
+}
+.butt{
+    margin-top: 30px;
 }
