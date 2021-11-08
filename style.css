@@ -188,8 +188,7 @@ ul{
 
 }
 .ufficio{
-    margin-top: 20px;
-    margin-bottom: 30px;
+    font-weight: bold;
 }
 .contatta{
     background-color: rgb(56, 123, 224);
@@ -202,4 +201,10 @@ ul{
 }
 .restringi h3{
     display: inline-block;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.restringi div:last-child{
+    margin-top: 26px;
+    margin-bottom: 20px;
 }
