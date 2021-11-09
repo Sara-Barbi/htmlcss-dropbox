@@ -191,11 +191,14 @@ ul{
 .contatta{
     background-color: rgb(56, 123, 224);
     padding: 7px 35px;
-    color: cornsilk;
     display: inline-block;
     float: right;
     margin-top: 20px;
     margin-right: 20px;
+}
+.contatta a{
+    text-decoration: none;
+    color: whitesmoke;
 }
 .restringi h3{
     display: inline-block;
@@ -379,7 +382,10 @@ ul{
     clear: both;
     content: "";
 }
-
+.restringimento div a{
+    color: whitesmoke;
+    text-decoration: none;
+}
 
 
 
