@@ -28,9 +28,13 @@ nav{
 }
 .sx ul li, .dx ul li{
     list-style: none;
-    font-size: 12px;
     display: inline-block;
     margin: 0 10px;
+}
+.sx ul li a, .dx ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
 }
 .dx{
     float: right;
@@ -46,12 +50,15 @@ ul{
     display: inline-block;
 }
 .bluebutton{
-    background-color: blue;
-    color: white;
+    background-color: rgb(57, 112, 214);
     font-size: 11px;
     line-height: 20px;
     display: inline-block;
     padding: 0 12px 0 12px;
+}
+.bluebutton a{
+    color: blanchedalmond;
+    text-decoration: none;
 }
 .sfondoblu{
     background-color: rgb(144, 171, 221);
@@ -78,9 +85,12 @@ ul{
 .try{
     background-color: rgb(27, 105, 223);
     padding: 5px 10px;
-    color: cornsilk;
     margin-top: 20px;
     display: inline-block;
+}
+.try a{
+    color: whitesmoke;
+    text-decoration: none;
 }
 .annull{
     margin-top: 10px;
@@ -280,6 +290,7 @@ ul{
     width: 50%;
     float: left;
     height: 186.5px;
+    color: white;
 }
 .sponsor img{
     width: 50%;
@@ -314,6 +325,7 @@ ul{
     width: 50%;
     float: left;
     height: 186.5px;
+    color: white;
 }
 .loghi img{
     width: 50%;
@@ -321,6 +333,7 @@ ul{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
 }
 .loghi div:nth-child(1){
     background-color: rgb(151, 25, 25);
@@ -358,7 +371,7 @@ ul{
 }
 .azienda{
     width: 100%;
-    background-color: rgb(161, 208, 240);
+    background-color: rgb(181, 214, 236);
     float: left;
 }
 .portare{
@@ -368,6 +381,7 @@ ul{
 }
 .portare h1{
     display: inline-block;
+    color: rgb(90, 22, 22);
 }
 .portare span{
     float: right;
