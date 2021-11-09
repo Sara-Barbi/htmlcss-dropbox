@@ -251,8 +251,9 @@ ul{
 .centertext{
     display: inline-block;
     width:40%;
+    height: 373px;
     float: left;
-    background-color: red;
+    background-color: whitesmoke;
 }
 .rosnops{
     width: 30%;
@@ -330,7 +331,54 @@ ul{
 .loghi div:nth-child(4){
     background-color: rgb(223, 210, 27);
 }
+.restringere{
+    width: 80%;
+    margin: 40px auto;
+}
+.designit{
+    width: 25%;
+}
+.designit img{
+    width: 100%;
+}
 
+.restringere hr{
+    width: 10% ;
+    color: rgb(167, 167, 167);
+    background-color: rgb(201, 199, 199);
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+.teext{
+    margin-bottom: 40px;
+}
+.azienda{
+    width: 100%;
+    background-color: rgb(161, 208, 240);
+    float: left;
+}
+.portare{
+    font-size: 16px;
+    width: 60%;
+    margin: 90px auto;
+}
+.portare h1{
+    display: inline-block;
+}
+.portare span{
+    float: right;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    padding: 5px 30px;
+}
+.portare span a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+    content: "";
+}
 
 
 
