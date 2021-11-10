@@ -392,7 +392,7 @@ ul{
 .portare span a{
     text-decoration: none;
 }
-.azienda{
+.clear{
     clear: both;
     content: "";
 }
@@ -401,11 +401,13 @@ ul{
     text-decoration: none;
 }
 .ultimo{
-    padding-top: 278px;
+    padding-top: 370px;
     width: 70%;
-    margin: 90px auto;
+    margin: auto;
+    height: 600px;
 }
-.domande{
+.ultimo h1{
+    margin-bottom: 40px;
 }
 .question{
     padding: 20px 0px;
@@ -414,6 +416,7 @@ ul{
 }
 .question p{
     display: inline-block;
+    font-weight: bold;
 }
 .question span {
     float: right;
@@ -426,6 +429,34 @@ ul{
 }
 .domande:hover .risposta{
     display: block;
+}
+.aft{
+    display: none;
+}
+.question:hover .aft{
+    display: inline-block;
+}
+.question:hover .bef{
+    display: none;
+}
+footer{
+    background-color: black;
+}
+.comprime{
+    width: 80%;
+}
+.scatole{
+    width: 20%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    border-collapse: collapse;
+    color: white;
+}
+.scatole div{
+    display: inline-block;
+}
+.scatole ul li{
+    list-style: none;
 }
 
 
