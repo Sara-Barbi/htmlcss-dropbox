@@ -400,10 +400,12 @@ ul{
     color: whitesmoke;
     text-decoration: none;
 }
-.domande{
+.ultimo{
     padding-top: 278px;
     width: 70%;
     margin: 90px auto;
+}
+.domande{
 }
 .question{
     padding: 20px 0px;
@@ -419,6 +421,15 @@ ul{
     vertical-align: middle;   
     padding-right: 20px;
 }
+.risposta{
+    display: none;
+}
+.domande:hover .risposta{
+    display: block;
+}
+
+
+
 
 
 
