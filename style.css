@@ -488,6 +488,10 @@ footer{
     text-decoration: none;
     color: white;
 }
+.intestazione i{
+    font-size: 12px;
+    margin-right: 5px;
+}
 
 
 
