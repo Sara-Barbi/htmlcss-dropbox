@@ -10,7 +10,6 @@ nav{
     top: 0;
     left: 0;
     width: 100%;
-    display: inline-block;
     z-index: 1;
 }
 .sx{
@@ -116,6 +115,7 @@ ul{
 }
 .allinfo h2{
     font-size: 35px;
+    margin-top: 30px;
 }
 .tab{
     display: inline-block ;
@@ -135,7 +135,7 @@ ul{
     margin-top: 30px;
     margin: 30px auto;
 }
-.tabella, .restringi, .partnership{
+.tabella, .restringi, .partnership::after{
     clear: both;
     display: table;
     content: "";    
@@ -265,7 +265,7 @@ ul{
 .centertext{
     display: inline-block;
     width:40%;
-    height: 373px;
+    height: 15vw;
     float: left;
     background-color: whitesmoke;
 }
@@ -289,8 +289,9 @@ ul{
 .sponsor div{
     display: inline-block;
     width: 50%;
+    height: 15vh;
     float: left;
-    height: 186.5px;
+    height: 15vw;
     color: white;
 }
 .sponsor img{
@@ -325,8 +326,9 @@ ul{
 .loghi div{
     display: inline-block;
     width: 50%;
+    height: 15vh;
     float: left;
-    height: 186.5px;
+    height: 15vw;
 }
 .loghi img{
     width: 50%;
@@ -396,16 +398,17 @@ ul{
 .clear::after{
     clear: both;
     content: "";
+    display: table;
 }
 .restringimento div a{
     color: whitesmoke;
     text-decoration: none;
 }
 .ultimo{
-    padding-top: 370px;
+    padding-top: 100px;
+    padding-bottom:150px;
     width: 70%;
     margin: auto;
-    height: 600px;
 }
 .ultimo h1{
     margin-bottom: 40px;
