@@ -392,7 +392,7 @@ ul{
 .portare span a{
     text-decoration: none;
 }
-.clear{
+.clear::after{
     clear: both;
     content: "";
 }
@@ -441,9 +441,11 @@ ul{
 }
 footer{
     background-color: black;
+    min-height: 500px;
 }
 .comprime{
     width: 80%;
+    margin: 0 auto;
 }
 .scatole{
     width: 20%;
@@ -451,16 +453,41 @@ footer{
     padding-bottom: 50px;
     border-collapse: collapse;
     color: white;
+    float: left;
+}
+.comprime::before{
+    clear: both;
+    display: table;
+    content:"";
 }
 .scatole div{
     display: inline-block;
 }
-.scatole ul li{
+.scatole ul {
     list-style: none;
+    padding-left: 0px;
+    margin-top: 0px;
 }
-
-
-
+.scatole ul li{
+    padding: 5px;
+}
+.scatole ul li a{
+    text-decoration: none;
+    color: white;
+}
+.scatole hr{
+    margin-top: 50px;
+    width: 75px;
+    margin-left: 0;
+}
+.ita{
+    font-size: 13px;
+    margin-top: 20px;
+}
+.ita a{
+    text-decoration: none;
+    color: white;
+}
 
 
 
