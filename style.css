@@ -426,7 +426,8 @@ ul{
 ul:hover .risposta{
     display: block;
 }
-.bef{
+.domande ul{
+    display: block;
 
 }
 .aft{
