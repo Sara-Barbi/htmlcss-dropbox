@@ -298,6 +298,7 @@ ul{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 .sponsor div:nth-child(1){
     background-color: rgb(185, 223, 135);
@@ -325,7 +326,6 @@ ul{
     width: 50%;
     float: left;
     height: 186.5px;
-    color: white;
 }
 .loghi img{
     width: 50%;
@@ -333,7 +333,7 @@ ul{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    filter: invert(1);
 }
 .loghi div:nth-child(1){
     background-color: rgb(151, 25, 25);
@@ -377,7 +377,7 @@ ul{
 .portare{
     font-size: 16px;
     width: 60%;
-    margin: 90px auto;
+    margin: 80px auto;
 }
 .portare h1{
     display: inline-block;
@@ -392,13 +392,18 @@ ul{
 .portare span a{
     text-decoration: none;
 }
-.clear{
+.azienda{
     clear: both;
     content: "";
 }
 .restringimento div a{
     color: whitesmoke;
     text-decoration: none;
+}
+.domande{
+    padding-top: 278px;
+    width: 70%;
+    margin: 90px auto;
 }
 
 
