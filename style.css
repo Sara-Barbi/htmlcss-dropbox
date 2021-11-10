@@ -405,41 +405,24 @@ ul{
     width: 70%;
     margin: 90px auto;
 }
-.domande ul{
-    position: relative;
-}
-.domande i{
-    position:relative;
-    top: 0px;
-    right: 0;
-}
-.domande ul li{
-    border-bottom: 1px solid rgb(175, 175, 175);
-    padding:20px 0;
-    list-style: none;
+.question{
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(189, 188, 188);
     width: 100%;
 }
-.risposta{
-    display: none;
+.question p{
+    display: inline-block;
+}
+.question span {
+    float: right;
+    line-height: 50px;
+    vertical-align: middle;   
+    padding-right: 20px;
 }
 
-ul:hover .risposta{
-    display: block;
-}
-.domande ul{
-    display: block;
 
-}
-.aft{
-    display: none;
-}
-li:hover .bef{
-    display: none;
 
-}
-li:hover .aft{
-    display: inline-block
-}
+
 
 
 
